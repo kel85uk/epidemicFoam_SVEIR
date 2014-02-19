@@ -1,0 +1,2 @@
+SOURCE = \
+epidemicFOAM_SVEIR.C

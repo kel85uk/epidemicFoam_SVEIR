@@ -1,0 +1,2 @@
+LOCAL_OBJECTS = \
+epidemicFOAM_SVEIR.o
