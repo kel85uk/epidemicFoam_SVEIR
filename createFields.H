@@ -78,122 +78,77 @@ IOdictionary transportProperties
     )
 );
  
-dimensionedScalar D1
+dimensionedScalar DS
 (
-    transportProperties.lookup("D1")
+    transportProperties.lookup("DS")
 );
 
-dimensionedScalar D2
+dimensionedScalar DV
 (
-    transportProperties.lookup("D2")
+    transportProperties.lookup("DV")
 );
 
-dimensionedScalar D3
+dimensionedScalar DE
 (
-    transportProperties.lookup("D3")
+    transportProperties.lookup("DE")
 );
 
-dimensionedScalar D4
+dimensionedScalar DI
 (
-    transportProperties.lookup("D4")
+    transportProperties.lookup("DI")
 );
 
-dimensionedScalar D5
+dimensionedScalar DR
 (
-    transportProperties.lookup("D5")
+    transportProperties.lookup("DR")
 );
 
-dimensionedScalar B
+dimensionedScalar Bsv
 (
-    transportProperties.lookup("B")
+    transportProperties.lookup("Bsv")
 );
 
-dimensionedScalar BE
+dimensionedScalar Bsi
 (
-    transportProperties.lookup("BE")
+    transportProperties.lookup("Bsi")
 );
 
-dimensionedScalar BI
+dimensionedScalar Bse
 (
-    transportProperties.lookup("BI")
+    transportProperties.lookup("Bse")
 );
 
-dimensionedScalar BV
+dimensionedScalar Bvi
 (
-    transportProperties.lookup("BV")
+    transportProperties.lookup("Bvi")
 );
 
-dimensionedScalar r
+dimensionedScalar Bve
 (
-    transportProperties.lookup("r")
+    transportProperties.lookup("Bve")
 );
 
-dimensionedScalar alpha
+dimensionedScalar Bei
 (
-    transportProperties.lookup("alpha")
+    transportProperties.lookup("Bei")
 );
 
-dimensionedScalar sigma
+dimensionedScalar Bir
 (
-    transportProperties.lookup("sigma")
+    transportProperties.lookup("Bir")
 );
 
-dimensionedScalar gamma
+dimensionedScalar Brs
 (
-    transportProperties.lookup("gamma")
+    transportProperties.lookup("Brs")
 );
 
-dimensionedScalar delta
+dimensionedScalar Bre
 (
-    transportProperties.lookup("delta")
+    transportProperties.lookup("Bre")
 );
 
-dimensionedScalar mu
+dimensionedScalar Bvs
 (
-    transportProperties.lookup("mu")
-);
-
-dimensionedScalar kappa
-(
-    transportProperties.lookup("kappa")
-);
-
-dimensionedScalar theta
-(
-    transportProperties.lookup("theta")
-);
-
-dimensionedScalar phi
-(
-    transportProperties.lookup("phi")
-);
-
-dimensionedScalar B1
-(
-	B*BE
-);
-
-dimensionedScalar B2
-(
-	B*BI
-);
-
-dimensionedScalar B3
-(
-	B*BE*BV
-);
-
-dimensionedScalar B4
-(
-	B*BI*BV
-);
-
-dimensionedScalar w1
-(
-	r + kappa + sigma
-);
-
-dimensionedScalar w2
-(
-	r + alpha + gamma
+    transportProperties.lookup("Brs")
 );
